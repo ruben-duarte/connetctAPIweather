@@ -3,7 +3,7 @@
 h1 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  color: #007bff;
+  color: #86bdf8;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #043c79;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
     margin: 0 auto;
     margin-top: 50px;
@@ -68,11 +68,13 @@ form input[type="submit"]:hover {
     font-size: 48px;
     font-weight: bold;
     margin: 20px 0;
+    color: #86bdf8;
 }
 
 .description {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #007bff;
 }
 
 .details {
@@ -84,12 +86,13 @@ form input[type="submit"]:hover {
 
 .details > div{
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #007bff;
     margin: 10px;
     flex: 1;
     border-radius:4px;
     text-align: center;
     min-height: 45px;
+    font-weight: 700;
 }
 
 @media (max-width:768px) {
